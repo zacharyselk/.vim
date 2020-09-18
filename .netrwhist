@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='C:/Users/zrsel/.vim/after/ftplugin'
+let g:netrw_dirhist_4='C:/Users/zrsel/.vim/after'
+let g:netrw_dirhist_3='C:/Users/zrsel/.vim'
+let g:netrw_dirhist_2='C:/Users/zrsel/.vim/after/ftplugin'
+let g:netrw_dirhist_1='C:/Users/zrsel/.vim/after'
+let g:netrw_dirhist_0='C:/Users/zrsel/.vim'
+let g:netrw_dirhist_9='C:/Users/zrsel'
+let g:netrw_dirhist_8='C:/Users'
+let g:netrw_dirhist_7='C:/'
+let g:netrw_dirhist_6='C:/$Recycle.Bin'
