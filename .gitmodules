@@ -1,0 +1,15 @@
+[submodule "/Users/zach/.vim/bundle/nerdtree"]
+	path = /Users/zach/.vim/bundle/nerdtree
+	url = https://github.com/preservim/nerdtree.git
+[submodule "/Users/zach/.vim/bundle/vim-airline"]
+	path = /Users/zach/.vim/bundle/vim-airline
+	url = https://github.com/vim-airline/vim-airline
+[submodule "/Users/zach/.vim/bundle/vim-airline-themes"]
+	path = /Users/zach/.vim/bundle/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url = https://github.com/preservim/tagbar
+[submodule "bundle/fzf"]
+	path = bundle/fzf
+	url = https://github.com/junegunn/fzf.vim
