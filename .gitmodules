@@ -13,3 +13,9 @@
 [submodule "bundle/fzf"]
 	path = bundle/fzf
 	url = https://github.com/junegunn/fzf.vim
+[submodule "bundle/clang-format"]
+	path = bundle/clang-format
+	url = https://github.com/rhysd/vim-clang-format
+[submodule "bundle/coc"]
+	path = bundle/coc
+	url = https://github.com/neoclide/coc.nvim
