@@ -1,6 +1,7 @@
 execute pathogen#infect()
 
 filetype plugin indent on
+colo desert
 syntax on
 set backspace=start,eol,indent
 
@@ -49,10 +50,10 @@ let NERDTreeDirArrows = 1
 
 " Open up NERDtree if a directory was specified
 autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | exe 'cd '.argv()[0] | endif
+autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | exe 'cd '.argv()[0] | wincmd p | endif
 
-" Toggle NERDtree with Ctrl+n
-nnoremap <Leader><Tab> :NERDTreeToggle<CR>
+" Toggle NERDtree
+nnoremap <silent> <Leader><Tab> :NERDTreeToggle<CR>
 
 " Close vim if only NERDtree is open
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
