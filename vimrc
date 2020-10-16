@@ -4,6 +4,7 @@ filetype plugin indent on
 colo desert
 syntax on
 set backspace=start,eol,indent
+set visualbell
 
 let $RTP=split(&runtimepath, ',')[0]
 let $RC="$HOME/.vim/vimrc"
